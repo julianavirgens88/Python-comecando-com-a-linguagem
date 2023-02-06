@@ -4,4 +4,4 @@ adjetivo = "fantástico"
 
 print(subst, verbo, adjetivo, sep="_", end="!\n")
 
-#imprime = Python_é_fantástico!
+# imprime = Python_é_fantástico!
