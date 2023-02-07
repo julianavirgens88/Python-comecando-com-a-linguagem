@@ -13,6 +13,9 @@ for rodada in range(1, total_de_tentativas + 1): # Entendendo o for: >>> para va
     chute_str = int(input("Digite o seu número: "))
     print("Você digitou ", chute_str)
 
+    if(chute_str < 1 or chute_str > 100):
+        print("Você deve digitar um número entre 1 e 100:")
+        continue #funciona como o break, mas nesse caso vai seguir o laço após atender essa condição.
 
     acertou = chute_str == numero
     maior = chute_str > numero
@@ -20,6 +23,7 @@ for rodada in range(1, total_de_tentativas + 1): # Entendendo o for: >>> para va
 
     if (acertou):
         print("Você acertou!")
+        break  #faz terminar o laço, caso o jogador acerte.
     else:
         if (maior):
             print("Você errou, o seu chute é maior do que o número secreto.")
