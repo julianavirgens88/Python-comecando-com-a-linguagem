@@ -28,3 +28,4 @@ else:
 
 rodada = rodada + 1
 
+print("FIM!")
