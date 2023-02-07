@@ -1,4 +1,4 @@
-import random
+import random #random precisa ser importado, conferir na biblioteca.
 
 print("*********************************")
 print("Bem vindo ao jogo de Adivinhacao!")
