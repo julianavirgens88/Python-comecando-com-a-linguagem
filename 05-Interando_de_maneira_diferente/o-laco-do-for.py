@@ -15,8 +15,8 @@ for rodada in range(1, total_de_tentativas + 1): # Entendendo o for: >>> para va
 
     if(chute_str < 1 or chute_str > 100):
         print("Você deve digitar um número entre 1 e 100:")
-        continue #funciona como o break, mas nesse caso vai seguir o laço após atender essa condição.
-
+        continue # o break, que acaba, encerra o laço; e o continue, que acaba, encerra a iteração, continuando para a próxima.
+    
     acertou = chute_str == numero
     maior = chute_str > numero
     menor = chute_str < numero
