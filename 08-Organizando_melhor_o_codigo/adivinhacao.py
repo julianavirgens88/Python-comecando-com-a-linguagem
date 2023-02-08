@@ -1,6 +1,6 @@
 import random 
 
-def jogar():
+def jogar(): #função definida para ser executada quando chamada no arquivo jogos.py.
     print("*********************************")
     print("Bem vindo ao jogo de Adivinhacao!")
     print("*********************************")
